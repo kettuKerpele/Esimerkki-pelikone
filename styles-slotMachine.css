@@ -1,0 +1,209 @@
+.crown-logo {
+  font-size: 70px;
+  font-family: Lobster;
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}
+p {
+  color: black;
+  font-family: courier;
+  font-size: 18px;
+  text-align: left;
+  margin-left:5px;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-family: Lobster;
+  -webkit-text-fill-color: white; 
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: yellow;
+}  
+.slotMachine {
+  text-align; center;
+  display: flex;
+  justify-content: center;
+}
+.machineFrameContainer {
+  margin-top: 10px;
+  background: linear-gradient(#231036, #e33327);
+  display: block;
+  width: 590px;
+  height: 810px;
+  text-align: center;
+  font-size: 50px;
+  font-family: Lobster;
+  color: silver;
+  border: solid #5b0aab 15px;
+  border-radius: 50px;
+  border-top-left-radius: 290px;
+  border-top-right-radius: 290px;
+  outline-style: outset;
+  outline-color: #5b0aab;
+  box-shadow: 0 0 20px 15px #5e18a3;
+}
+.infoContainer {
+  text-align; center;
+  display: block;
+  justify-content: center;
+}
+.infoMultiplyContent {
+  display: flex;
+  text-align: center;
+  width: 560px;
+  margin-left: 20px;
+}
+.multiplyerContent {
+  color: cyan;
+  font-family: Lobster;
+  font-size: 16px;
+}
+.moneyDisplay {
+  display: flex;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 510px;//510
+  height: 40px;
+  background-color: #b50707;
+  border-radius: 5px;
+  border: solid 1px red;
+  margin-left: 40px;
+  box-shadow: 0 0 10px #b50707;
+  outline: none;
+}
+.playContainer {
+  text-align; center;
+  display: flex;
+  justify-content: center; 
+}
+.playAreaContainer {
+  text-align; center;
+  display: block;
+  justify-content: center;
+}
+.reelContainer {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 520px;
+  height: 180px;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  border: solid silver 5px;
+  outline-style: outset;
+  outline-color: silver;
+  outline-style: dotted;
+  outline-color: yellow;
+  box-shadow: inlet 0 0 10px 5px black;
+}
+.images {
+  background: linear-gradient(#fff700, #e33327);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+img {
+  width: 120px;
+}
+.lockBtnContainer {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;
+}
+.addMoneyBtn {
+  font-family: impact;
+  font-size: 16px;
+  color: white;
+  margin-top: 0px;
+  background-color: #0e70cc;
+  width: 40px;
+  height: 40px;
+  border-radius: 33px;
+  outline-style: outset;
+  outline-color: silver;
+  box-shadow: 0 0 10px 5px #0e70cc;
+  margin-right: 20px;
+}
+addMoneyBtn:hover {
+  background-color: cyan;
+  box-shadow: 0 0 10px 5px cyan;
+}
+
+button {
+  font-family: impact;
+  font-size: 20px;
+  color: white;
+  margin-top: 40px;
+  background-color: orange;
+  width: 120px;
+  height: 60px;
+  border-radius: 10px;
+  outline-style: outset;
+  outline-color: silver;
+  box-shadow: 0 0 10px 5px #0e70cc;
+}
+button:hover {
+  background-color: cyan;
+  box-shadow: 0 0 10px 5px cyan;
+}
+.payBetPlayBtnContainer{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.pay {
+  font-family: impact;
+  font-size: 20px;
+  color: white;
+  background-color: #0e70cc;
+  width: 140px;
+  height: 60px;
+  border-radius: 10px;
+  outline-style: outset;
+  outline-color: silver;
+  box-shadow: 0 0 10px 5px #0e70cc;
+  margin-right:20px;
+}
+pay:hover {
+  background-color: cyan;
+  box-shadow: 0 0 10px 5px cyan;
+}
+.bet {
+  font-family: impact;
+  font-size: 20px;
+  color: white;
+  background-color: #9c2dcf;
+  width: 130px;
+  height: 60px;
+  border-radius: 10px;
+  outline-style: outset;
+  outline-color: silver;
+  box-shadow: 0 0 10px 5px #9c2dcf;
+  margin-left:10px;
+}
+bet:hover {
+  background-color: cyan;
+  box-shadow: 0 0 10px 5px cyan;
+}
+.play {
+  font-family: impact;
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  width: 130px;
+  height: 60px;
+  border-radius: 10px;
+  outline-style: outset;
+  outline-color: silver;
+  box-shadow: 0 0 10px 5px green;
+  margin-left:10px;
+}
+play:hover {
+  background-color: cyan;
+  box-shadow: 0 0 10px 5px cyan;
+}

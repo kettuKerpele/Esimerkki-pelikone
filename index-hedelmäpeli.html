@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles-slotMachine.css">
+<link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet'>
+<title>Pelikone</title>
+</head>
+<body style="background-color: black;">
+
+<div class="slotMachine">
+ <div class="machineFrameContainer">
+  <h1><span>&#x272D;</span> Ga<span class="crown-logo">&#x2655;</span><span>bler &#x272D;</span></h1>
+   <div class="betBtnContainer">
+    <button class="addMoneyBtn" id="btn1" onclick="add20cent()">20c</button>
+    <button class="addMoneyBtn" id="btn2" onclick="add50cent()">50c</button>
+    <button class="addMoneyBtn" id="btn3" onclick="add1eur()">1e</button>
+    <button class="addMoneyBtn" id="btn4" onclick="add2eur()">2e</button>
+   </div>
+   <div class="infoContainer">
+    <div class="infoMultiplyContent"> 
+     <p class="multiplyerContent">7 7 7 7 &#x27A0; voitto = 10 X Panos </p>
+     <p class="multiplyerContent">&loz; &loz; &loz; &loz; &#x27A0; voitto = 6 X Panos </p>
+     <p class="multiplyerContent">&#x265B; &#x265B; &#x265B; &#x265B; &#x27A0; voitto = 5 X Panos </p>
+     <p class="multiplyerContent">&#x2717; &#x2717; &#x2717; &#x2717; &#x27A0; voitto = 4 X Panos </p>
+     <p class="multiplyerContent">&#x2694; &#x2694; &#x2694; &#x2694; &#x27A0; voitto = 3 X Panos </p>
+     <p class="multiplyerContent">7 7 7 &#x27A0; voitto = 5 X Panos </p>
+    </div>
+    <div class="moneyDisplay"> 
+     <p id="saldo">Saldo: 0e&nbsp;&nbsp;</p>
+     <p id="bet">Panos: 0e&nbsp;&nbsp;</p>
+     <p id="wins">Voitto: 0e&nbsp;&nbsp;</p>
+    </div>
+   </div>
+   <div class="playContainer">
+    <div class="playAreaContainer">
+     <div class="reelContainer">
+      <div class="images">
+       <img src="reels\img1.png" id="slot1"/>
+      </div>
+      <div class="images">
+       <img src="reels\img2.png" id="slot2"/>
+      </div>
+      <div class="images">
+       <img src="reels\img3.png" id="slot3"/>
+      </div>
+      <div class="images">
+       <img src="C:\Users\cpu3\Desktop\reels\img4.png" id="slot4"/>
+      </div>
+     </div>
+     <div class="lockBtnContainer">
+      <button id="hold1" onclick="lock1Enabled=true; lock1Color()">Lukitse &#128274;</button>
+      <button id="hold2" onclick="lock2Enabled=true; lock2Color()">Lukitse &#128274;</button>
+      <button id="hold3" onclick="lock3Enabled=true; lock3Color()">Lukitse &#128274;</button>
+      <button id="hold4" onclick="lock4Enabled=true; lock4Color()">Lukitse &#128274;</button>
+     </div>
+     <div class="payBetPlayBtnContainer">
+      <button class="pay" id="payOut" onclick="Enabled=true; payOut()">Voitonmaksu &#x2607;</button>
+      <button class="bet" id="betBtn" onclick="Enabled=true; addBet()">Panos &#x2719;</button>
+      <button class="play" id="playBtn" onclick="Enabled=true; playOnOff()">Pelaa &#x276F;&#x276F;</button>
+     </div>
+    </div>
+   </div>
+  </div>
+</div>
+
+<script src="js-slotMachine.js"></script>   
+</body>
+</html>
